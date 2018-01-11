@@ -25,6 +25,9 @@ var pusher = new Pusher('your-app-id', {
         });
 ```
 Insert your Pusher app ID and cluster in the appropriate places.
+
+Start your MongoDB server by running `mongod`.
+
 Then:
 
 ```bash
