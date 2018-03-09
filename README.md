@@ -5,8 +5,8 @@ This project demonstrates how to add Twitter's realtime likes functionality to y
 The app's homepage displays a list of posts. Open the app in several different browser windows or tabs simultaneously. You'll see that liking a post in one window reflects across all windows wthout needing a page refresh.
 
 ## Prerequisites
-- Node.js and NPM 
-- MongoDB
+- Node.js (v6.0.0 or higher) 
+- MongoDB (v3.4.0 or higher)
 - A [Pusher account](https://pusher.com/signup) and a [Pusher app credentials](http://dashboard.pusher.com/)
 
 ## Getting started
@@ -27,8 +27,8 @@ PUSHER_APP_CLUSTER=ZZZZZZZZ
 Look for these lines of JavaScript in `views/index.hbs`:
 ```javascript
 var pusher = new Pusher('your-app-id', {
-            cluster: 'your-app-cluster'
-        });
+    cluster: 'your-app-cluster'
+});
 ```
 Insert your Pusher app ID and cluster in the appropriate places.
 
