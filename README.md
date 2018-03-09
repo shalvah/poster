@@ -1,15 +1,21 @@
 # poster
-This project demonstrates how to add Twitter's realtime likes functionality to your Node app with Pusher. [Walkthrough](https://blog.pusher.com/build-twitters-realtime-likes-feature-node-js-pusher/).
+This project demonstrates how to add Twitter's realtime likes functionality to your Node app with Pusher. [Here's a walkthrough](https://blog.pusher.com/build-twitters-realtime-likes-feature-node-js-pusher/).
 
 ## Description
-The app's homepage displays a list of posts. If you open the app in several different browser windows or tabs simultaneously, you'll see that liking a post in one window reflects across all windows wthout needing a page refresh.
+The app's homepage displays a list of posts. Open the app in several different browser windows or tabs simultaneously. You'll see that liking a post in one window reflects across all windows wthout needing a page refresh.
 
-## Requirements
+## Prerequisites
 - Node.js and NPM 
 - MongoDB
 - A [Pusher account](https://pusher.com/signup) and a [Pusher app credentials](http://dashboard.pusher.com/)
 
-## Running the app
+## Getting started
+Clone the project:
+
+```bash
+git clone https://github.com/shalvah/poster
+```
+
 Put your Pusher app credentials in a `.env` file in the project root:
 ```
 PUSHER_APP_ID=WWWWWWWWW
@@ -34,3 +40,11 @@ Then:
 node bin/seed.js
 npm start
 ```
+
+## Built With
+
+* [Pusher](https://pusher.com/) - APIs for building realtime features
+
+## Acknowledgements
+
+- Twitter!
