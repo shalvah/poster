@@ -18,10 +18,10 @@ git clone https://github.com/shalvah/poster
 
 Put your Pusher app credentials in a `.env` file in the project root:
 ```
-PUSHER_APP_ID=WWWWWWWWW
-PUSHER_APP_KEY=XXXXXXXXX
-PUSHER_APP_SECRET=YYYYYYYY
-PUSHER_APP_CLUSTER=ZZZZZZZZ
+PUSHER_APP_ID=your-app-id
+PUSHER_APP_KEY=your-app-key
+PUSHER_APP_SECRET=your-app-secret
+PUSHER_APP_CLUSTER=your-app-cluster
 ```
 
 Look for these lines of JavaScript in `views/index.hbs`:
